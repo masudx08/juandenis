@@ -30,7 +30,7 @@ export default function Location() {
  
   return (
     <div>
-      Location
+       <h5>Visitor by Location</h5>
       <Doughnut data={data}  />
     </div>
   )

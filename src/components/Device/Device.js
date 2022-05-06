@@ -25,7 +25,7 @@ export default function Device() {
   };
   return (
     <div>
-      Device
+      <h5>Visitor by Device</h5>
       <Doughnut data={data} />
     </div>
   )

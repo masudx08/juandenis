@@ -1,6 +1,6 @@
 import React from 'react'
 import { Line } from 'react-chartjs-2';
-import { faker } from '@faker-js/faker';
+
 
 export default function Activity() {
   const labels = ['January', 'March',  'May', 'July', 'September', 'November']
@@ -25,13 +25,12 @@ export default function Activity() {
       },
       title: {
         display: true,
-        text: 'Chart.js Line Chart',
+        text: 'Page View Activity',
       },
     },
   };
   return (
     <div>
-      Source
       <Line data={data} options={options} />
     </div>
   )

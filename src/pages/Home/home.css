@@ -1,3 +1,38 @@
-.sectionA{
+.homeContainer .sectionA{
   display: flex;
+  align-items: center;
+  border-top: 2px solid var(--secondary-color);
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.homeContainer .sectionA .left{
+  display: flex;
+  column-gap: 10px;
+}
+.homeContainer .sectionA .left img{
+  max-width: 250px;
+  height: auto;
+}
+.homeContainer .sectionB{
+  text-align: center;
+  border-top: 2px solid var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+  padding: 20px 0;
+  margin: 50px 0;
+}
+
+.homeContainer .sectionB .count{
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  justify-content: center;
+}
+.homeContainer .sectionB .count svg{
+  font-size: 40px;
+}
+
+
+.homeContainer .sectionC{
+  text-align: center;
 }
