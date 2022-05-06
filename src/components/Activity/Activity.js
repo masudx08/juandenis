@@ -9,7 +9,7 @@ export default function Activity() {
     datasets: [
       {
         label: 'Sale',
-        data: labels.map(() => faker.datatype.number({ min: 100, max: 3000 })),
+        data: [10, 952, 807, 1121, 536, 757, 653],
         borderColor: 'rgb(255, 99, 132)',
         backgroundColor: 'rgba(255, 99, 132, 0.5)',
       },

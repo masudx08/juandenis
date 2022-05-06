@@ -1,3 +1,12 @@
-.test{
-   color: rgb(228, 226, 226)
+:root{
+ --primary-color: orange;
+ --secondary-color:  rgb(43, 42, 42);
+}
+
+.primary-color{color: var(--primary-color)}
+.secondary-color{color: var(--secondary-color)}
+
+*{
+  box-sizing: border-box;
+  color: var(--secondary-color)
 }
