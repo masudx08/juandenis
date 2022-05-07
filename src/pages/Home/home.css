@@ -4,11 +4,13 @@
   border-top: 2px solid var(--secondary-color);
   padding-top: 20px;
   margin-top: 20px;
+  row-gap: 20px;
 }
 
 .homeContainer .sectionA .left{
   display: flex;
   column-gap: 10px;
+  row-gap: 20px;
 }
 .homeContainer .sectionA .left img{
   max-width: 250px;
@@ -20,10 +22,12 @@
   border-bottom: 2px solid var(--secondary-color);
   padding: 20px 0;
   margin: 50px 0;
+  row-gap: 20px;
 }
 
 .homeContainer .sectionB .count{
   display: flex;
+  row-gap: 20px;
   align-items: center;
   column-gap: 10px;
   justify-content: center;
@@ -35,4 +39,5 @@
 
 .homeContainer .sectionC{
   text-align: center;
+  row-gap: 20px;
 }
