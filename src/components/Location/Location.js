@@ -1,11 +1,11 @@
 import React from 'react'
 
 import { Doughnut } from 'react-chartjs-2';
-const locationData = require('./locations.json')
+const mock = require('../../assets/mock.json')
 
 
 export default function Location() {
-  const data = locationData
+  const data = mock.location
  
   return (
     <div>

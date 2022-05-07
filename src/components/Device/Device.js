@@ -1,9 +1,9 @@
 import React from 'react'
 import { Doughnut } from 'react-chartjs-2';
-const deviceData = require('./device.json')
+const mock = require('../../assets/mock.json')
 
 export default function Device() {
-  const data = deviceData
+  const data = mock.device
   return (
     <div>
       <h5>Visitor by Device</h5>

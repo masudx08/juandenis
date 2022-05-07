@@ -1,9 +1,9 @@
 import React from 'react'
 import { Doughnut } from 'react-chartjs-2';
-const sourceData = require('./source.json')
+const mock = require('../../assets/mock.json')
 
 export default function Source() {
-  const data = sourceData
+  const data = mock.source
   return (
     <div>
        <h5>Visitor by Source</h5>

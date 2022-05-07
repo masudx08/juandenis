@@ -1,12 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { Line } from 'react-chartjs-2';
-const activityData = require('./activity.json')
+const mock = require('../../assets/mock.json')
 
 export default function Activity() {
-  const data = {
-    labels: activityData.labels,
-    datasets: activityData.datasets
-  };
+  const data = mock.activity
   
   const options = {
     responsive: true,
